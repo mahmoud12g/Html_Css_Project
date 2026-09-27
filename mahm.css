@@ -1,0 +1,271 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    /* color: rgba(7, 0, 0, 0.5); */
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.conntanir{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+    /* box-shadow: 2px 5px 5px #ccc; */
+}
+
+
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    border-bottom:1px rgb(229 218 218) solid;
+    margin-bottom: 40px;
+    padding: 20px 2px
+}
+
+/* ----nav left--- */
+
+.nav-left{
+    display: flex;
+    /* padding: 10px  */
+    gap: 40px;
+    align-items: center;
+
+}
+
+.nav-left .nav-links{
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    gap: 21px;
+
+}
+
+.nav-left > a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #1d2026;
+
+}
+
+.nav-left a{
+    text-decoration: none;
+    color: #69707d;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 5px;
+
+}
+
+.nav-links  li>a:hover{
+    color: #1d2026;
+    /* padding-bottom: 1px; */
+    border-bottom: 3px beige solid;
+    transition-delay: 2s;
+
+
+}
+.nav-left a:first-child{
+    /* font-size: 22px; */
+    color: black;
+
+}
+
+/* ---------nav right */
+
+.nav-right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.nav-right .cart{
+    background-color: white;
+    border: 0px white solid;
+}
+
+
+
+
+
+.nav-right .logo{
+
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+
+
+/* ----------- info-------------------- */
+
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+    gap: 100px;
+
+}
+
+
+
+    .photos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    max-width: 450px;
+
+}
+
+.photo1{
+    width: 100%;
+    /* padding: 10px; */
+
+}
+
+.photo1 img{
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    
+}
+.photo2{
+    width: 30%;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+
+}
+
+    .photo2 .img1 {
+        width: 100%;
+        border: 3px red solid;
+        border-radius: 15px;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+}
+
+
+.photo2 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.photo2 .img3{
+        object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+/* --------------sales------------------- */
+.sales{
+    width: 50%;
+    max-width: 450px;
+
+}
+.sales h3{
+        font-weight: 400;
+    letter-spacing: 2px;
+    color: #b5a78b;
+    padding-bottom: 25px;
+}
+.sales h1{
+        font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+.sales .disc1{
+        color: #b5a78b;
+    padding-bottom: 25px;
+    font-weight: 100;
+        line-height: 1.2
+}
+.sales .price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 13px;
+}
+.sales .price .disc2{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 14px;
+    /* font-weight: bold; */
+
+}
+.sales .disc3{
+        padding-bottom: 25px;
+    text-decoration: line-through;
+    color: #999
+}
+/* ------------- buttons------------- */
+.buttuon{
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.but1{
+    padding: 10px;
+    display: flex;
+    gap: 21px;
+    border-radius: 10px;
+    background-color:#f5f5f5 ;
+}
+.but1 .num {
+    padding: 0 22px;
+}
+
+.but1 .minus{
+    /* font-size: 19px; */
+    background: none;
+    transition: .3s;
+    color: #ff7d1a;
+    border: none
+}
+.but1 .plus{
+    /* font-size: 19px; */
+    background: none;
+    color: #ff7d1a;
+    border: none
+
+}
+
+/* --butt2 */
+.butt2 {
+/* background-color: #ffa500; */
+    padding: 15px;
+    border-radius: 5px;
+
+}
+.butt2 .add{
+    background: none;
+    border: none;
+    padding:15px 50px;
+    background-color: #ff7d1a;
+        border-radius: 10px;
+}
+.butt2 .add i{
+        padding-right: 7px;
+}
